@@ -1,10 +1,10 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text,Platform } from 'react-native';
 function App () {
     return (
         <View style={{
             flex: 1, 
-            backgroundColor: colors.bg,
+            backgroundColor: 'white',
             color: "white",
             paddingTop: Platform.OS === "android" ? 25 : 0
         }}

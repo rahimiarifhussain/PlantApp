@@ -1,9 +1,16 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text,Platform } from 'react-native';
 function App () {
     return (
-        <View>
-            <Text>this is text</Text>
+        <View style={{
+            flex: 1, 
+            backgroundColor: 'white',
+            color: "white",
+            paddingTop: Platform.OS === "android" ? 25 : 0
+        }}
+    >
+            
+        <Text>this is text</Text>
         </View>
     );
 }

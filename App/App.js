@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text,Platform } from 'react-native';
+import { View,Platform ,Text} from 'react-native';
+import {Navigation} from '../App/navigation/Navigation';
 function App () {
     return (
         <View style={{
@@ -9,8 +10,7 @@ function App () {
             paddingTop: Platform.OS === "android" ? 25 : 0
         }}
     >
-            
-        <Text>this is text</Text>
+     <Text >this is </Text>       
         </View>
     );
 }

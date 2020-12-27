@@ -2,7 +2,7 @@ this is the most offical and how do you do?
 # PlantApp
 #this is the most offical and that is the mosr 
 -------------------------------------------------------------------------------------------------------------------------------
-
+thi sis jyst downlaod files 
 install Expo:
   npm install -g expo-cli
 clone the the repo
